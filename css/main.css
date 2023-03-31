@@ -1,0 +1,27 @@
+
+nav{
+    display: grid;
+    grid-template-columns: 4% 45% 34% 7%;
+   
+}
+section{
+    text-align: center;
+}
+.span1{
+    color: var(--color);
+}
+.button1{
+    background-color: var(--color);
+    text-align: center;
+    border: 0;
+}
+.h11{
+   font-size: 18px;
+   font-weight: 500;   
+} 
+.h11:hover{
+    font-size: 25px;
+    color: red;
+    cursor: pointer;
+    font-weight: 700;
+}
