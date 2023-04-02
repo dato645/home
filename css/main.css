@@ -1,4 +1,6 @@
-
+body {
+    font-family: 'Roboto', sans-serif;
+}
 nav{
     display: grid;
     grid-template-columns: 4% 45% 34% 7%;
@@ -24,4 +26,15 @@ section{
     color: red;
     cursor: pointer;
     font-weight: 700;
+}
+.login{
+    color: var(--color);
+    padding-top: 20px;
+    display: inline-block;
+}
+.form1{
+    
+}
+.form2{
+    padding-top: 30px;
 }
